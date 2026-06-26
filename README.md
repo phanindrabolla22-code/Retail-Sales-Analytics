@@ -5,7 +5,9 @@ An end-to-end **Data Analytics** project that analyzes retail sales data using *
 ## Dataset
 
 This project uses the **Sample Superstore** dataset, a publicly available retail sales dataset widely used for learning data analytics, SQL, and Power BI.
+
 https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
+
 ---
 
 ## 🚀 Tech Stack
