@@ -1,0 +1,44 @@
+1. Top 10 Revenue-Generating Customers:
+
+SELECT Customer_Name,
+       ROUND(SUM(Sales),2) AS Total_Revenue
+FROM sales
+GROUP BY Customer_Name
+ORDER BY Total_Revenue DESC
+LIMIT 10;
+---------------------------------------------------------------------------------------------------------------------------------------
+2. Most Profitable Product Categories:
+
+SELECT Category,
+       ROUND(SUM(Profit),2) AS Total_Profit
+FROM sales
+GROUP BY Category
+ORDER BY Total_Profit DESC;
+----------------------------------------------------------------------------------------------------------------------------------------
+3. Regional Performance Analysis:
+
+SELECT Region,
+       ROUND(SUM(Sales),2) AS Total_Sales,
+       ROUND(SUM(Profit),2) AS Total_Profit
+FROM sales
+GROUP BY Region
+ORDER BY Total_Sales DESC;
+-----------------------------------------------------------------------------------------------------------------------------------------
+4. Monthly Sales Trend:
+
+SELECT DATE_FORMAT(Order_Date,'%Y-%m') AS Month,
+       ROUND(SUM(Sales),2) AS Monthly_Sales
+FROM sales
+GROUP BY Month
+ORDER BY Month;
+
+
+
+
+
+
+
+
+
+
+

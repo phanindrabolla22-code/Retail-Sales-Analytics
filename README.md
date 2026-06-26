@@ -1,0 +1,91 @@
+# 📊 Retail Sales Analytics
+
+An end-to-end **Data Analytics** project that analyzes retail sales data using **Python** and **MySQL** to generate meaningful business insights.
+
+---
+
+## 🚀 Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- MySQL
+- SQL
+
+---
+
+## 📌 Project Workflow
+
+- Imported and explored retail sales data.
+- Cleaned and preprocessed the dataset using Pandas.
+- Performed Exploratory Data Analysis (EDA).
+- Created visualizations to identify sales trends and patterns.
+- Loaded cleaned data into MySQL.
+- Wrote SQL queries to answer business questions.
+
+---
+
+## 📈 Business Analysis
+
+The project answers key business questions such as:
+
+- Who are the top revenue-generating customers?
+- Which product categories generate the highest sales?
+- Which regions perform best?
+- Which products generate the highest profit?
+- How do sales change over time?
+
+---
+
+## 📂 Project Structure
+
+```text
+Retail-Sales-Analytics/
+│
+├── data/
+├── python/
+├── sql/
+├── screenshots/
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
+
+---
+
+## 📊 Sample Visualizations
+
+The project includes visualizations such as:
+
+- Monthly Sales Trend
+- Sales by Category
+- Sales by Region
+- Profit Analysis
+
+---
+
+## 🎯 Skills Demonstrated
+
+- Data Cleaning
+- Data Analysis
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- SQL Query Writing
+- Business Insight Generation
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Retail-Sales-Analytics.git
+cd Retail-Sales-Analytics
+pip install -r requirements.txt
+```
+
+---
+
+## 👨‍💻 Author
+
+**Phanindra**
