@@ -12,6 +12,7 @@ An end-to-end **Data Analytics** project that analyzes retail sales data using *
 - Matplotlib
 - MySQL
 - SQL
+- Powerbi
 
 ---
 
@@ -49,7 +50,6 @@ Retail-Sales-Analytics/
 ├── screenshots/
 ├── README.md
 ├── requirements.txt
-└── LICENSE
 ```
 
 ---
@@ -72,18 +72,7 @@ The project includes visualizations such as:
 - Exploratory Data Analysis (EDA)
 - Data Visualization
 - SQL Query Writing
-- Business Insight Generation
-
----
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/YOUR_USERNAME/Retail-Sales-Analytics.git
-cd Retail-Sales-Analytics
-pip install -r requirements.txt
-```
-
+  
 ---
 
 ## 👨‍💻 Author
